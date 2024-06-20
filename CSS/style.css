@@ -15,14 +15,14 @@
 
 .display_suhu{
     resize: none;
-    width: 150px;
+    margin: 5px;
+    max-width: 200px;
     border-radius: 7px;
     border-width: 2px;
     border-style: solid;
     border-color: gray;
     font-family: math;
     text-align: center;
-    justify-content: center;
     background-color: ghostwhite;
 }
 .web{
@@ -78,7 +78,7 @@ aside{
 
 .box{
     display: flex;
-    justify-content:center;
+    justify-content:space-evenly;
 }
 
 button{
@@ -102,5 +102,8 @@ body{
     .web{
         display: flex;
         flex-direction: column;
+    }
+    .display_suhu{
+        max-width: 100px;
     }
 }
