@@ -1,4 +1,100 @@
-.tombol{
+.info{
+    font-size: 22px;
+    font-family: math;
+    font-style: italic;
+}
+
+.border{
+    background: #548687;
+    color: #FFFFC7;
+    border-radius: 20px;
+    text-align: center;
     padding: 10px;
+    margin: 25px;
+}
+
+.display_suhu{
+    resize: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    font-family: math;
+    text-align: center;
+    justify-content: center;
+    background-color: ghostwhite;
+}
+.web{
+    display: flex;
+}
+
+aside{
+    margin: 25px;
+    background-color: #FCAA67;
+    padding: 10px;
+    border-radius: 20px;
+    border: 10px;
+    border-width: 100px;
+    border-color: black;
+    color:#473335;
+}
+#kalkulasi{
+    resize: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    font-family: math;
+    text-align: center;
+    justify-content: center;
+    background-color: ghostwhite;
+}
+
+
+.tombol{
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    font-family: math;
+    text-align: center;
+    background-color: ghostwhite;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: none;
+}
+
+
+.display_kalkulasi{
+    width: 100%;
+    resize: none;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 100%;
+}
+
+body{
+    background-color: #B0413E;
+}
+
+.semi-judul{
+    margin: 10px;
+    text-align: center;
+}
+.judul{
+    text-align: center;
 }
 
